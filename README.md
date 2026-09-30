@@ -1,34 +1,19 @@
 # Map Drawing App
 
-A React + TypeScript map-drawing application built with Vite and Leaflet.
+A React + TypeScript mapping application built with Vite, Leaflet, Leaflet Draw, and Turf.
 
 ## Features
-
-- Interactive OpenStreetMap view through React Leaflet.
-- Draw rectangles, polygons, circles, and polylines.
-- Configurable limits for drawn shape types.
-- Polygon containment and overlap checks using Turf-based utilities.
-- Automatic trimming of overlapping polygon geometry when possible.
-- Delete drawn features and export the current feature set.
-
-## Tech stack
-
-- React + TypeScript
-- Vite
-- Leaflet / React Leaflet
-- Leaflet Draw
-- Turf
+- Interactive OpenStreetMap view
+- Rectangle, polygon, circle, and polyline drawing
+- Shape-count limits
+- Polygon containment and overlap checks
+- Turf-based geometry processing
+- Delete and export controls
 
 ## Run locally
+`npm install`
+`npm run dev`
 
-```bash
-npm install
-npm run dev
-```
-
-For a production build:
-
-```bash
-npm run build
-npm run preview
-```
+Production checks:
+`npm run build`
+`npm run preview`
